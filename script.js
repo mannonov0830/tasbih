@@ -9,5 +9,4 @@ btn.addEventListener("click", () => {
     else {
         menu.style.display = "block";
     }
-
 });
