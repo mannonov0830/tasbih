@@ -113,7 +113,7 @@ p span {
   background-color: #222222;
   border: 1px solid #555555;
   text-align: center;
-  display: none; 
+  display: none;
   flex-direction: column;
 }
 
@@ -129,5 +129,5 @@ h6 {
 }
 
 h6:hover {
-  background-color: rgb(4, 0, 255);
+  background-color: rgba(4, 0, 255, 0.8);
 }
