@@ -13,3 +13,33 @@ body{
     justify-content: center;
     margin-top: 50px;
 }
+
+.nav{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+}
+.btn_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.btn_flex button{
+    width: 80px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #222222;
+    border: none;
+    color: #fff;
+}
+
+h4{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
