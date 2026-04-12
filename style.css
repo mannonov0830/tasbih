@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .nav {
@@ -96,4 +96,9 @@ p{
     font-size: 16px;
     color: #fff;
     font-weight: 500;
+    margin-top: 50px;
+    color: #525252;
+}
+p span{
+    color: #00ea86;
 }
