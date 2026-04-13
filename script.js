@@ -20,6 +20,21 @@ let btnReset = document.querySelector(".btn_reset")
 let sum = document.querySelector(".sum h4")
 let btnTop = document.querySelector(".btn_top")
 let btnBotton = document.querySelector(".btn_botton")
+let items = document.querySelector(".dropdown-content h6")
+
+
+
+btnTop.addEventListener("click", () => {
+    count++
+    sum.textContent = count
+})
+
+btnBotton.addEventListener("click", () => {
+    if (count > 0) {
+        count--
+        sum.textContent = count
+    }
+})
 
 
 
